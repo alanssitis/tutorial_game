@@ -1,3 +1,5 @@
+"""Module that contains Alien class
+"""
 import pygame
 from pygame.sprite import Sprite
 

@@ -1,4 +1,4 @@
-"""This module contains the class that defines the bullet
+"""Module that contains Bullet class
 """
 import pygame
 from pygame.sprite import Sprite

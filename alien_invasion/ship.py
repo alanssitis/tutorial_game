@@ -1,9 +1,10 @@
-"""Module that contains ship class
+"""Module that contains Ship class
 """
 import pygame
+from pygame.sprite import Sprite
 
 
-class Ship:
+class Ship(Sprite):
     """A class to manage the ship.
     """
 
@@ -13,6 +14,8 @@ class Ship:
         Args:
             ai_game (instance): Pygame Instance (I think)
         """
+        super().__init__()
+
         self.screen = ai_game.screen
         self.settings = ai_game.settings
         self.screen_rect = ai_game.screen.get_rect()
